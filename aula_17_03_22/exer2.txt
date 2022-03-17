@@ -1,0 +1,3 @@
+elabore um programa que pergunte ao usuario em que turno ele estuda, peça para ele digitar M pra Manhã, T pra Tarde ou N pra noite.
+Imprima a msg "Bom Dia" se ele digitou M e etc. T = boa tarde, n = boa noite e dados incorretos se ele digitar qualquer outra coisa
+elaborar um formulario para receber a opção do usuario e uma pagina para mostrar a informação
