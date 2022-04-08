@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="soma">
+
+    </div>
+
+    <div id="subtração">
+        
+    </div>
+
+    <div id="multiplicação">
+        
+    </div>
+
+    <div id="divisão">
+        
+    </div>
+
+    <script>
+       var n1 = Number.parseInt (window.prompt('Digite um número inteiro'))
+       var n2 = Number.parseInt (window.prompt('Digite outro número inteiro'))
+       var soman = n1 + n2;
+       var sub = n1 - n2;
+       var mult = n1 * n2;
+       var div = n1 / n2;
+
+       var soma = document.getElementById('soma')
+       soma.style.color = 'red'
+       document.getElementById('soma').innerHTML = soman
+
+       var subtração = document.getElementById('subtração')
+       subtração.style.color = 'blue'
+       document.getElementById('subtração').innerHTML = sub
+
+       
+       var multiplicação = document.getElementById('multiplicação')
+       multiplicação.style.color = 'yellow'
+       document.getElementById('multiplicação').innerHTML = mult
+
+       var divisão = document.getElementById('divisão')
+       divisão.style.color = 'green'
+       document.getElementById('divisão').innerHTML = div
+
+
+
+    </script>
+</body>
+</html>
